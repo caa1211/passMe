@@ -1,0 +1,11 @@
+.DS_Store
+*.swp
+log/*.log
+*.iml
+
+#################
+## Directories
+#################
+.idea/
+dist/
+node_modules/
