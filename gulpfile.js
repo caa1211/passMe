@@ -41,7 +41,7 @@ gulp.task('watch', function() {
     gulp.watch('src/*', ['clean', 'copy']);
 });
 
-gulp.task('prod', ['clean', 'copy', 'webserver', 'watch'], function() {
+gulp.task('prod', ['clean', 'copy', 'webserver'], function() {
     console.log("== run server on localhost:8080 ==");
 });
 
